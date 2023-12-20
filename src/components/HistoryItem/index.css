@@ -1,0 +1,55 @@
+.list-item {
+  list-style-type: none;
+  display: flex;
+
+  margin-bottom: 20px;
+}
+
+.history-opened {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.time {
+  margin-right: 40px;
+  color: #64748b;
+}
+
+.logo {
+  margin-right: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.title {
+  margin-right: 20px;
+  color: #475569;
+  font-weight: bold;
+}
+
+.domain-url {
+  color: #64748b;
+}
+
+.button {
+  margin-left: auto;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .list-item {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .title-url {
+    display: flex;
+    flex-direction: row;
+  }
+}
